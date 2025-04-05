@@ -2,7 +2,7 @@
     --primary-color: #5AA9E6;
     --secondary-color: #7FC8F8;
     --font-color: #F9F9F9;
-    --background-color: #F9F9F9;;
+    --background-color: #F9F9F9;
 }
 
 body {
@@ -13,9 +13,7 @@ body {
     padding: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     color: var(--primary-color);
     margin: 10px 0;
 }
@@ -25,25 +23,21 @@ p {
     line-height: 1.6;
 }
 
-.a img {
+a {
     text-decoration: none;
+}
+
+a img {
     border: none;
 }
 
-.a img:hover {
+a img:hover {
     opacity: 0.8;
 }
-
-.a {
-    text-decoration: none;
-}
-
 
 .hero {
     position: relative;
 }
-
-
 
 .hero h1 {
     position: absolute;
