@@ -13,58 +13,81 @@
 
 <body>
     <header>
-        <img src="images/logo.png" alt="Rafting Site Logo" width="200" height="auto">
+        <img src="images/logo.png" alt="Rafting Site Logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>  
         </nav>
     </header>
 
     <main>
         <div class="hero">
-            <img src="images/hero.jpg" alt="hero img" width="100%" height="auto">
+            <img src="images/hero.jpg" alt="Hero Image">
             <h1>White Water Rafting</h1>
             <article>
-                <img src="images/happy-client.png" alt="Happy Client" width="300" height="auto">
+                <img src="images/happy-client.png" alt="Happy Client">
                 <p>
-                    Our mission is to provide unforgettable rafting experiences that connect people to the beauty of
-                    nature. Placeholder text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    Our mission is to provide unforgettable rafting experiences that connect people to the beauty of nature.
                 </p>
             </article>
         </div>
 
         <section>
             <h2>History</h2>
-            <p>
-                Founded many moons ago by adventurous souls, the company began its journey providing thrilling rafting
-                experiences to explorers of all kinds. Placeholder text: Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.
-            </p>
+            <div class="history-content">
+                <p>
+                    Founded many moons ago by adventurous souls with a shared passion for exploration, the company embarked on its journey to bring the thrill of rafting to life. It all began with a vision to create unforgettable experiences that would not only challenge adventurers but also foster a deep connection with the natural world. Starting as a small, dedicated team, they navigated rivers, mastered the art of rafting, and built a reputation for safety, excitement, and respect for the environment.
+                </p>
+                <img src="images/hero_old.jpg" alt="A beautiful rafting scene">
+                <p>
+                    Over the years, the company grew, fueled by the stories and smiles of countless explorers who found joy and inspiration on their journeys. What started as a humble dream has transformed into a legacy, where people of all ages and backgrounds come together to embrace the adventure, camaraderie, and wonder that only nature can offer. Today, the mission remains the same: to share the beauty, power, and serenity of the water, one thrilling ride at a time.
+                </p>
+            </div>
         </section>
 
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting1.jpg" alt="White Water Rafting" width="300" height="auto">
-            <img src="images/rafting2.jpg" alt="Rafting Adventure" width="300" height="auto">
-            <img src="images/rafting3.jpg" alt="Exciting Rafting" width="300" height="auto">
-            <img src="images/rafting4.jpg" alt="Thrilling Rapids" width="300" height="auto">
-            <img src="images/rafting5.jpg" alt="Rafting Experience" width="300" height="auto">
-        </section>
+        <div class="flex-container">
+            <section>
+                <h2>Adventure Awaits You!</h2>
+                <div class="flex-items">
+                    <figure>
+                        <img src="images/rafting1.jpg" alt="White Water Rafting">
+                        <figcaption>White Water Rafting</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting2.jpg" alt="Rafting Adventure">
+                        <figcaption>Rafting Adventure</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting3.jpg" alt="Exciting Rafting">
+                        <figcaption>Exciting Rafting</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting4.jpg" alt="Thrilling Rapids">
+                        <figcaption>Thrilling Rapids</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting5.jpg" alt="Rafting Experience">
+                        <figcaption>Rafting Experience</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </div>
 
         <footer>
             <p>&copy; 2025 | White Water Rafting | Ygor de Castro Santos</p>
-            <nav>
+            <nav class="social-links">
                 <a href="https://facebook.com">
-                    <img src="images/facebook-icon.png" alt="Facebook" width="50" height="50">
+                    <img src="images/facebook-icon.png" alt="Facebook">
                 </a>
                 <a href="https://twitter.com">
-                    <img src="images/twitter-icon.png" alt="Twitter" width="50" height="50">
+                    <img src="images/twitter-icon.png" alt="Twitter">
                 </a>
                 <a href="https://instagram.com">
-                    <img src="images/instagram-icon.png" alt="Instagram" width="50" height="50">
+                    <img src="images/instagram-icon.png" alt="Instagram">
                 </a>
             </nav>
         </footer>
