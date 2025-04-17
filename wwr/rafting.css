@@ -293,3 +293,67 @@ button[type="submit"]:hover {
     object-fit: cover;
     border-radius: 8px;
 }
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.grid-item p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.trip-table {
+    margin: 20px;
+    text-align: center;
+}
+
+.trip-table h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--font-color);
+}
+
+.trip-table th {
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    color: var(--background-color);
+}
+
+.trip-table tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.trip-table tbody tr:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+.trip-table td {
+    font-size: 0.9rem;
+}
